@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/www.kansascarver.com/static/css/main.3ace9527.css",
-    "main.js": "/www.kansascarver.com/static/js/main.7bbd53a7.js",
-    "static/js/787.28cb0dcd.chunk.js": "/www.kansascarver.com/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.jpg": "/www.kansascarver.com/static/media/logo.18a1df33300cd11711de.jpg",
-    "index.html": "/www.kansascarver.com/index.html",
-    "main.3ace9527.css.map": "/www.kansascarver.com/static/css/main.3ace9527.css.map",
-    "main.7bbd53a7.js.map": "/www.kansascarver.com/static/js/main.7bbd53a7.js.map",
-    "787.28cb0dcd.chunk.js.map": "/www.kansascarver.com/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/www.ml.kansascarver.com/static/css/main.3ace9527.css",
+    "main.js": "/www.ml.kansascarver.com/static/js/main.b78dbf54.js",
+    "static/js/787.28cb0dcd.chunk.js": "/www.ml.kansascarver.com/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.jpg": "/www.ml.kansascarver.com/static/media/logo.18a1df33300cd11711de.jpg",
+    "index.html": "/www.ml.kansascarver.com/index.html",
+    "main.3ace9527.css.map": "/www.ml.kansascarver.com/static/css/main.3ace9527.css.map",
+    "main.b78dbf54.js.map": "/www.ml.kansascarver.com/static/js/main.b78dbf54.js.map",
+    "787.28cb0dcd.chunk.js.map": "/www.ml.kansascarver.com/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ace9527.css",
-    "static/js/main.7bbd53a7.js"
+    "static/js/main.b78dbf54.js"
   ]
 }
