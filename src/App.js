@@ -1,24 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './assets/logo.jpg';
 
 function App() {
   return (
     <div className="App">
-      <div className='header'>
-        <h1>Mom Life</h1>
-        <h1>NAV</h1>
+      <div class="topnav">
+        <a href="#home" class="active"><img src={logo} className="logo" alt="cover" /></a>
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onClick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
       <div className='mainContent'>
-        <div className='aboutUscontainer'>
-          <h2>What we're about</h2>
+        <div className='aboutUsContainer'>
+          <h2>Thank you for visiting!</h2>
         </div>
         <div>
-        <p>THIS IS ABOUT US</p>
+          <p>Our website is currently under construction. Check back soon!</p>
         </div>
       </div>
-
     </div>
   );
 }
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 
 export default App;
