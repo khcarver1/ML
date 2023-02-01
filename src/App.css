@@ -38,8 +38,10 @@ h2 {
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #333;
   position: relative;
+  background-image: url(./assets/pexels-simone-defendi-12762122.jpg);
+  background-size: cover;
+
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -50,17 +52,16 @@ h2 {
 /* Style navigation menu links */
 .topnav a {
   color: white;
-  padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
   display: block;
+  text-align: -webkit-center;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
   background: black;
   display: block;
-  position: absolute;
   right: 0;
   top: 0;
 }
@@ -73,7 +74,6 @@ h2 {
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #04AA6D;
   color: white;
 }
 
@@ -92,8 +92,9 @@ h2 {
   .logo {
     display: flex;
     justify-content: center;
-    height: 100%;
-    width: 25%;
+    height: fit-content;
+    width: 35%;
+    padding: 0%;
   }
 
 }

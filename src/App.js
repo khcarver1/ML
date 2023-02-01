@@ -1,5 +1,7 @@
 import './App.css';
 import logo from './assets/logo.jpg';
+import React from 'react';
+
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
           <a href="#contact">Contact</a>
           <a href="#about">About</a>
         </div>
-        <a href="javascript:void(0);" class="icon" onClick="myFunction()">
+        <a href="javascript:void(0);" class="icon" onClick={() => myFunction()}>
           <i class="fa fa-bars"></i>
         </a>
       </div>
@@ -26,7 +28,6 @@ function App() {
     </div>
   );
 }
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
@@ -35,6 +36,7 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 
 
 export default App;
