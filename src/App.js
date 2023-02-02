@@ -1,13 +1,14 @@
 import './App.css';
 import logo from './assets/logo.jpg';
 import React from 'react';
+import Footer from './components/footer';
 
 
 function App() {
   return (
     <div className="App">
       <div class="topnav">
-        <a href="#home" class="active"><img src={logo} className="logo" alt="cover" /></a>
+        <a href="#home" class="active"><img src={logo} className='logo' /> </a>
         <div id="myLinks">
           <a href="#news">News</a>
           <a href="#shop">Shop</a>
@@ -26,6 +27,7 @@ function App() {
           <p>Our website is currently under construction. Check back soon!</p>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
