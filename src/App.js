@@ -3,7 +3,7 @@ import React from 'react';
 import Footer from './components/footer';
 import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
 import Home from './components/home.js';
-import Shop from './components/shop.js';
+import Shopify from './components/shopify.js';
 import Nav from './components/nav.js';
 import News from './components/news.js';
 import Contact from './components/contact.js';
@@ -16,7 +16,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/news" element={<News />} />
-          <Route path="/shop" element={<Shop />} />
+          <Route path="/shopify" element={<Shopify />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
         </Routes>

@@ -8,7 +8,7 @@ const Nav = () => {
             <a href="/#" class="active"><img src={logo} className='logo' /> </a>
             <div id="myLinks">
                 <a href="/#/news">News</a>
-                <a href="/#/shop">Shop</a>
+                <a href="/#/shopify">Shopify</a>
                 <a href="/#/contact">Contact</a>
                 <a href="/#/about">About</a>
             </div>

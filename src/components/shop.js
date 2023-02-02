@@ -5,20 +5,20 @@ import Search from "../assets/search.png"
 
 
 
-const Shop = (props) => {
+const Shopify = () => {
   return (
     <>
       <div className="App">
         <div className='mainContent'>
-          <div className="shopHdr">
+          <div className="shopifyHdr">
 
-            <a href="/#/shop"><img src={Cart} width="25" /></a>
-            <a href="/#/shop"><img src={Search} width="25" /></a>
+            <a href="/#/shopify"><img src={Cart} width="25" /></a>
+            <a href="/#/shopify"><img src={Search} width="25" /></a>
 
           </div>
 
           <div>
-            <p>Welcome to our shop.</p>
+            <p>Welcome to our shopify.</p>
             <p>One day you'll see things for sale here</p>
           </div>
         </div>
@@ -38,4 +38,4 @@ const Shop = (props) => {
 //   , SHARED_SECRET
 // );
 
-export default Shop;
+export default Shopify;
