@@ -10,6 +10,7 @@ function App() {
         <a href="#home" class="active"><img src={logo} className="logo" alt="cover" /></a>
         <div id="myLinks">
           <a href="#news">News</a>
+          <a href="#shop">Shop</a>
           <a href="#contact">Contact</a>
           <a href="#about">About</a>
         </div>
