@@ -97,7 +97,7 @@ h6 {
 
 .shopHdr {
   display: flex;
-  align-items: space-between;
+  justify-content: space-around;
   padding: 10px;
   background-color: gray;
 }
