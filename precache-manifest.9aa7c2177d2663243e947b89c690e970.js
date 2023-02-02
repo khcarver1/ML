@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c9b858aa4d90eec3c31d",
+    "revision": "c723bcfa46eb334790de",
     "url": "/ML/static/css/main.03572589.chunk.css"
   },
   {
-    "revision": "c9b858aa4d90eec3c31d",
-    "url": "/ML/static/js/main.c9b858aa.chunk.js"
+    "revision": "c723bcfa46eb334790de",
+    "url": "/ML/static/js/main.c723bcfa.chunk.js"
   },
   {
     "revision": "7fc5741dfb5d402e95fa",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/ML/static/media/pexels-simone-defendi-12762122.c31e7e9c.jpg"
   },
   {
-    "revision": "6a6e13f83770e6b466a5e4d11b8261bf",
+    "revision": "7126f91ced593d5489c5a94899737ef0",
     "url": "/ML/index.html"
   }
 ];

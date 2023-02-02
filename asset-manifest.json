@@ -1,7 +1,7 @@
 {
   "main.css": "/ML/static/css/main.03572589.chunk.css",
-  "main.js": "/ML/static/js/main.c9b858aa.chunk.js",
-  "main.js.map": "/ML/static/js/main.c9b858aa.chunk.js.map",
+  "main.js": "/ML/static/js/main.c723bcfa.chunk.js",
+  "main.js.map": "/ML/static/js/main.c723bcfa.chunk.js.map",
   "static/js/1.7fc5741d.chunk.js": "/ML/static/js/1.7fc5741d.chunk.js",
   "static/js/1.7fc5741d.chunk.js.map": "/ML/static/js/1.7fc5741d.chunk.js.map",
   "static/js/2.b955745e.chunk.js": "/ML/static/js/2.b955745e.chunk.js",
@@ -12,6 +12,6 @@
   "static/media/App.css": "/ML/static/media/pexels-simone-defendi-12762122.c31e7e9c.jpg",
   "static/css/main.03572589.chunk.css.map": "/ML/static/css/main.03572589.chunk.css.map",
   "index.html": "/ML/index.html",
-  "precache-manifest.ae57778a20a401d4d9bc313d1e8829ea.js": "/ML/precache-manifest.ae57778a20a401d4d9bc313d1e8829ea.js",
+  "precache-manifest.9aa7c2177d2663243e947b89c690e970.js": "/ML/precache-manifest.9aa7c2177d2663243e947b89c690e970.js",
   "service-worker.js": "/ML/service-worker.js"
 }
