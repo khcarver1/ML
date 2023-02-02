@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7abd9386786257a02b81",
-    "url": "/ML/static/css/main.6608960e.chunk.css"
+    "revision": "319969d80cc3f447ece0",
+    "url": "/ML/static/css/main.a7982c42.chunk.css"
   },
   {
-    "revision": "7abd9386786257a02b81",
-    "url": "/ML/static/js/main.7abd9386.chunk.js"
+    "revision": "319969d80cc3f447ece0",
+    "url": "/ML/static/js/main.319969d8.chunk.js"
   },
   {
     "revision": "3c11774c00c8fe3168dd",
@@ -24,11 +24,7 @@ self.__precacheManifest = [
     "url": "/ML/static/media/logo.4d2a646f.jpg"
   },
   {
-    "revision": "c31e7e9c70fe3285bda74c95eeb6adef",
-    "url": "/ML/static/media/pexels-simone-defendi-12762122.c31e7e9c.jpg"
-  },
-  {
-    "revision": "c4fa13a4e7b54c8c0a49188d3062b31e",
+    "revision": "a4f2783a2e5663f402967105d53d1a37",
     "url": "/ML/index.html"
   }
 ];
