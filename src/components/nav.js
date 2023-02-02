@@ -5,12 +5,12 @@ import React from "react";
 const Nav = () => {
     return (
         <div class="topnav">
-            <a href="/" class="active"><img src={logo} className='logo' /> </a>
+            <a href="/#" class="active"><img src={logo} className='logo' /> </a>
             <div id="myLinks">
-                <a href="/ML/#/news">News</a>
-                <a href="/ML/#/shop">Shop</a>
-                <a href="/ML/#/contact">Contact</a>
-                <a href="/ML/#/about">About</a>
+                <a href="/#/news">News</a>
+                <a href="/#/shop">Shop</a>
+                <a href="/#/contact">Contact</a>
+                <a href="/#/about">About</a>
             </div>
             <a href="javascript:void(0);" class="icon" onClick={() => myFunction()}>
                 <i class="fa fa-bars"></i>
