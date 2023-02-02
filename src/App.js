@@ -1,45 +1,26 @@
 import './App.css';
-import logo from './assets/logo.jpg';
 import React from 'react';
 import Footer from './components/footer';
+import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
+import Home from './components/home.js';
+import Shop from './components/shop.js';
+import Nav from './components/nav.js';
+import News from './components/news.js';
+import Contact from './components/contact.js';
+import About from './components/about.js';
 
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <div class="topnav">
-        <a href="#home" class="active"><img src={logo} className='logo' /> </a>
-        <div id="myLinks">
-          <a href="#news">News</a>
-          <a href="#shop">Shop</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onClick={() => myFunction()}>
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-      <div className='mainContent'>
-        <div className='aboutUsContainer'>
-          <h2>Thank you for visiting!</h2>
-        </div>
-        <div>
-          <p>Our website is currently under construction. Check back soon!</p>
-        </div>
-      </div>
-      <Footer></Footer>
-    </div>
+      <HashRouter basename='/'>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+        <Footer />
+      </HashRouter>
   );
-}
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-
-
-export default App;
+};
