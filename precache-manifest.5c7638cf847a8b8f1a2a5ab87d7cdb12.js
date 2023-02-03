@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b3f430b37770b060cd27",
-    "url": "/static/css/main.2719ef36.chunk.css"
+    "revision": "53c6c1f622eda1dbcfb9",
+    "url": "/static/css/main.8a1c7907.chunk.css"
   },
   {
-    "revision": "b3f430b37770b060cd27",
-    "url": "/static/js/main.b3f430b3.chunk.js"
+    "revision": "53c6c1f622eda1dbcfb9",
+    "url": "/static/js/main.53c6c1f6.chunk.js"
   },
   {
     "revision": "b5dec1235d8d1d118e4f",
@@ -32,15 +32,15 @@ self.__precacheManifest = [
     "url": "/static/media/MomLife_Script_Logo.b9b1bfb6.svg"
   },
   {
-    "revision": "60098c2ba1abcb75479f4dea14b44ba3",
-    "url": "/static/media/BG3.60098c2b.JPG"
-  },
-  {
     "revision": "ead31770db0901c3757de3179b516688",
     "url": "/static/media/Dream Catcher.ead31770.ttf"
   },
   {
-    "revision": "64b4e8c0e957cdd8d20b3a8900a5778d",
+    "revision": "60098c2ba1abcb75479f4dea14b44ba3",
+    "url": "/static/media/BG3.60098c2b.JPG"
+  },
+  {
+    "revision": "d9fd2b593205ed99d6dba6775f7e48b9",
     "url": "/index.html"
   }
 ];
