@@ -1,11 +1,11 @@
 {
   "main.css": "/static/css/main.55ba01aa.chunk.css",
-  "main.js": "/static/js/main.8a182332.chunk.js",
-  "main.js.map": "/static/js/main.8a182332.chunk.js.map",
+  "main.js": "/static/js/main.63207ef5.chunk.js",
+  "main.js.map": "/static/js/main.63207ef5.chunk.js.map",
   "static/js/1.8a122903.chunk.js": "/static/js/1.8a122903.chunk.js",
   "static/js/1.8a122903.chunk.js.map": "/static/js/1.8a122903.chunk.js.map",
-  "static/js/2.340326b5.chunk.js": "/static/js/2.340326b5.chunk.js",
-  "static/js/2.340326b5.chunk.js.map": "/static/js/2.340326b5.chunk.js.map",
+  "static/js/2.de1a6e64.chunk.js": "/static/js/2.de1a6e64.chunk.js",
+  "static/js/2.de1a6e64.chunk.js.map": "/static/js/2.de1a6e64.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.1458782b.js",
   "runtime~main.js.map": "/static/js/runtime~main.1458782b.js.map",
   "static/media/logo.jpg": "/static/media/logo.4d2a646f.jpg",
@@ -13,6 +13,6 @@
   "static/media/App.css": "/static/media/pexels-simone-defendi-12762122.c31e7e9c.jpg",
   "static/css/main.55ba01aa.chunk.css.map": "/static/css/main.55ba01aa.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.9e9b30e387a02cb229ed735a1e08d1b7.js": "/precache-manifest.9e9b30e387a02cb229ed735a1e08d1b7.js",
+  "precache-manifest.59edaf72fc024a6fa6882a774864026c.js": "/precache-manifest.59edaf72fc024a6fa6882a774864026c.js",
   "service-worker.js": "/service-worker.js"
 }
