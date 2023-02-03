@@ -10,8 +10,7 @@ const home = () => {
                 <div className='mainContent'>
                     <div className='aboutUsContainer'>
                         <h2>Thank you for visiting!</h2>
-                    </div>
-                    <div>
+                
                         <p>Our website is currently under construction. Check back soon!</p>
                     </div>
                 </div>

@@ -13,7 +13,6 @@
 
 }
 html {
-  background-color: var(--color1);
 }
 
 .header {
@@ -23,8 +22,8 @@ html {
 }
 
 .header h1 {
-  color: black;
-  font-size: 4vh;
+  color: var(--color1);
+  font-size: 5vh;
 }
 
 .mainContent {
@@ -32,19 +31,17 @@ html {
 
 }
 
-.homeLink {
-  text-decoration: none;
-  color: salmon;
-}
+
 
 h1 {
-  color: salmon;
+  color: var(--color3);
   font-size: 7vh;
 }
 
 h2 {
-  color: black;
-  font-size: 4vh;
+  font-family: var(--font2);
+  color: var(--color1);
+  font-size: 5vh;
 }
 
 h6 {
@@ -65,6 +62,7 @@ h6 {
   margin-left: -10px;
 }
 
+/* /////////////////////////////NAV////////////////////// */
 
 .topnav {
   overflow: hidden;
@@ -72,12 +70,18 @@ h6 {
   background-repeat: round;
   position: sticky;
   border-radius: 20px;
+  background-color: var(--color1);
+  background-position: 0px 0px;
+  /* background-repeat: repeat-x; */
+  animation: animatedBackground 30s linear infinite;
 }
 
 .topnav #myLinks {
   display: none;
   text-align: center;
+  
 }
+
 
 .topnav #myLinks a {
   flex-direction: column;
@@ -85,13 +89,14 @@ h6 {
 .myLinksOne {
   width: 50%;
   text-shadow: 1px 1px 15px var(--color3);
-
+  
 }
 .myLinksOne a:hover {
   color: var(--color3);
   opacity: .5;
-  border: 2px solid #3B373C;
   border-radius: 40px;
+  font-weight: 100;
+
 }
 
 .myLinksTwo {
@@ -102,7 +107,7 @@ h6 {
   color: var(--color1);
   padding: 10px 12px;
   text-decoration: none;
-  font-family: var(--font2);
+  font-family: var(--font1);
   font-size: 25px;
   display: block;
 }
@@ -112,7 +117,7 @@ h6 {
   position: absolute;
   right: 0;
   top: 0;
-  margin: 10px 1px auto;
+  margin: 18px;
   font-size: 35px;
 }
 
@@ -122,7 +127,7 @@ h6 {
 
 
 .active {
-  color: white;
+  color: var(--color4);
 }
 
 
@@ -132,7 +137,12 @@ h6 {
   color: var(--color3);
   
 }
+/* ///////////////////////////////////////home.js///////////////////// */
 
+.aboutUsContainer {
+  text-align: center;
+  padding: 10px;
+}
 
 /* SHOPPING PAGE */
 
@@ -140,12 +150,48 @@ h6 {
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  background-color: gray;
+  height: 40px;
+  background-color: var(--color2);
+}
+
+/* ////////////////////////////KEYFRAMES////////////////////////////// */
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@keyframes animatedButton {
+  from {
+    font-weight: lighter;
+  }
+  to {
+    font-weight: bolder;
+  }
+}
+@keyframes animationTest {
+  from {
+    display: flex;
+  }
+  to {
+    display: none;
+  }
 }
 
 
+/* //////////////////////////FONTS/////////////////////////// */
 
-
+@font-face {
+  font-family: 'Dream Catcher';
+  src: url('../src/assets/fonts/Dream Catcher.ttf'); /* IE9 Compat Modes */
+  src: url('../src/assets/fonts/Dream Catcher.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('../src/assets/fonts/Dream Catcher.ttf') format('ttf'), /* Modern Browsers */
+       url('../src/assets/fonts/Dream Catcher.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../src/assets/fonts/Dream Catcher.ttf') format('svg'); /* Legacy iOS */
+}
 
 /* ////////////////////////// MEDIA QUERIES ////////////////////////// */
 

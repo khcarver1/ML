@@ -10,15 +10,9 @@ const Shopify = () => {
     <>
       <div className="App">
         <div className='mainContent'>
-          <div className="shopifyHdr">
-
-            <a href="/#/shopify"><img src={Cart} width="25" /></a>
-            <a href="/#/shopify"><img src={Search} width="25" /></a>
-
-          </div>
+          
 
           <div className="shopMainContent">
-            <p>Welcome to our shopify.</p>
             <p>One day you'll see things for sale here</p>
           </div>
         </div>
