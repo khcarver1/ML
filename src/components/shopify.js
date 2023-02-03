@@ -17,7 +17,11 @@ const Shopify = () => {
 
           </div>
 
+<<<<<<< HEAD:src/components/shop.js
           <div>
+=======
+          <div className="shopMainContent">
+>>>>>>> main:src/components/shopify.js
             <p>Welcome to our shopify.</p>
             <p>One day you'll see things for sale here</p>
           </div>

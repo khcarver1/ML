@@ -3,11 +3,15 @@ import React from 'react';
 import Footer from './components/footer';
 import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
 import Home from './components/home.js';
+<<<<<<< HEAD
 import Shopify from './components/shopify.js';
+=======
+>>>>>>> main
 import Nav from './components/nav.js';
 import News from './components/news.js';
 import Contact from './components/contact.js';
 import About from './components/about.js';
+import Shopify from './components/shopify';
 
 export default function App() {
   return (

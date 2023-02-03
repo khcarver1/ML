@@ -1,4 +1,20 @@
-:root {}
+:root {
+  --color1: #3B373C;
+  --color2: #D2B084;
+  --color3: #AE8087;
+  --color4: #D7C8C2;
+  --color5: #3b373c;
+  --color6: #d2b084;
+  --color7: #3b373c;
+
+  --font1: 'Bellefair', sans-serif;
+  --font2: 'Dream Catcher', serif;
+  --font3: 'Baskerville Display', sans-serif;
+
+}
+html {
+  background-color: var(--color1);
+}
 
 .header {
   display: flex;
@@ -45,17 +61,17 @@ h6 {
 
 .logo {
   justify-content: left;
-  width: 40%;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px 1px;
+  width: 60%;
+  margin-left: -10px;
 }
 
 
 .topnav {
   overflow: hidden;
-  background-image: url(./assets/pexels-simone-defendi-12762122.jpg);
+  background-image: url(./assets/BG3.JPG);
   background-repeat: round;
   position: sticky;
+  border-radius: 20px;
 }
 
 .topnav #myLinks {
@@ -63,11 +79,31 @@ h6 {
   text-align: center;
 }
 
+.topnav #myLinks a {
+  flex-direction: column;
+}
+.myLinksOne {
+  width: 50%;
+  text-shadow: 1px 1px 15px var(--color3);
+
+}
+.myLinksOne a:hover {
+  color: var(--color3);
+  opacity: .5;
+  border: 2px solid #3B373C;
+  border-radius: 40px;
+}
+
+.myLinksTwo {
+  width: 50%;
+}
+
 .topnav a {
-  color: white;
-  padding: 14px 16px;
+  color: var(--color1);
+  padding: 10px 12px;
   text-decoration: none;
-  font-size: 17px;
+  font-family: var(--font2);
+  font-size: 25px;
   display: block;
 }
 
@@ -76,11 +112,12 @@ h6 {
   position: absolute;
   right: 0;
   top: 0;
-  margin-top: 20px;
+  margin: 10px 1px auto;
+  font-size: 35px;
 }
 
 .topnav a:hover {
-  color: white;
+  
 }
 
 
@@ -88,8 +125,12 @@ h6 {
   color: white;
 }
 
-.fa {
-  font-size: 25px;
+
+
+.fa-bars {
+  font-size: 35px;
+  color: var(--color3);
+  
 }
 
 
