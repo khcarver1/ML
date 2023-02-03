@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a1ed8a6efa8926443fae",
-    "url": "/static/css/main.c3515f45.chunk.css"
+    "revision": "b3f430b37770b060cd27",
+    "url": "/static/css/main.2719ef36.chunk.css"
   },
   {
-    "revision": "a1ed8a6efa8926443fae",
-    "url": "/static/js/main.a1ed8a6e.chunk.js"
+    "revision": "b3f430b37770b060cd27",
+    "url": "/static/js/main.b3f430b3.chunk.js"
   },
   {
     "revision": "b5dec1235d8d1d118e4f",
@@ -36,7 +36,11 @@ self.__precacheManifest = [
     "url": "/static/media/BG3.60098c2b.JPG"
   },
   {
-    "revision": "89150ddadc9afa9a4ee3777410066f3c",
+    "revision": "ead31770db0901c3757de3179b516688",
+    "url": "/static/media/Dream Catcher.ead31770.ttf"
+  },
+  {
+    "revision": "64b4e8c0e957cdd8d20b3a8900a5778d",
     "url": "/index.html"
   }
 ];
