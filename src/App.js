@@ -3,7 +3,6 @@ import React from 'react';
 import Footer from './components/footer';
 import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
 import Home from './components/home.js';
-import Shop from './components/shop.js';
 import Nav from './components/nav.js';
 import News from './components/news.js';
 import Contact from './components/contact.js';
