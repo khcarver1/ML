@@ -8,6 +8,7 @@ import Nav from './components/nav.js';
 import News from './components/news.js';
 import Contact from './components/contact.js';
 import About from './components/about.js';
+import Shopify from './components/shopify';
 
 export default function App() {
   return (
@@ -16,7 +17,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/news" element={<News />} />
-          <Route path="/shop" element={<Shop />} />
+          <Route path="/shopify" element={<Shopify />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
         </Routes>
