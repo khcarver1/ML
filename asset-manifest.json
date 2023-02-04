@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.74a75cbd.chunk.css",
-  "main.js": "/static/js/main.27d9d93d.chunk.js",
-  "main.js.map": "/static/js/main.27d9d93d.chunk.js.map",
+  "main.css": "/static/css/main.b170118a.chunk.css",
+  "main.js": "/static/js/main.1aaed26c.chunk.js",
+  "main.js.map": "/static/js/main.1aaed26c.chunk.js.map",
   "static/js/1.3a79397a.chunk.js": "/static/js/1.3a79397a.chunk.js",
   "static/js/1.3a79397a.chunk.js.map": "/static/js/1.3a79397a.chunk.js.map",
   "static/js/2.63045011.chunk.js": "/static/js/2.63045011.chunk.js",
@@ -12,9 +12,9 @@
   "static/media/shopping-cart.png": "/static/media/shopping-cart.515fc584.png",
   "static/media/MomLife_Script_Logo.svg": "/static/media/MomLife_Script_Logo.b9b1bfb6.svg",
   "static/media/portrait.png": "/static/media/portrait.04673a09.png",
-  "static/media/App.css": "/static/media/Dream Catcher.ead31770.ttf",
-  "static/css/main.74a75cbd.chunk.css.map": "/static/css/main.74a75cbd.chunk.css.map",
+  "static/media/App.css": "/static/media/BG3.60098c2b.JPG",
+  "static/css/main.b170118a.chunk.css.map": "/static/css/main.b170118a.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.a2e26afbd0d023a4eb3aa9e4b7c5e93b.js": "/precache-manifest.a2e26afbd0d023a4eb3aa9e4b7c5e93b.js",
+  "precache-manifest.f1561777f80ab1daf01b22c67ed95c97.js": "/precache-manifest.f1561777f80ab1daf01b22c67ed95c97.js",
   "service-worker.js": "/service-worker.js"
 }
