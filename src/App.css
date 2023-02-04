@@ -3,14 +3,17 @@
   --color2: #D2B084;
   --color3: #AE8087;
   --color4: #D7C8C2;
-  --color5: #3b373c;
-  --color6: #d2b084;
-  --color7: #3b373c;
+  --color5: #d1d3c7;
+  --color6: #eee9e0;
+  --color7: #faf9f8;
 
-  --font1: 'Bellefair', sans-serif;
-  --font2: 'Dream Catcher', serif;
-  --font3: 'Baskerville Display', sans-serif;
+  --font1: 'Bellefair';
+  --font2: 'Dream Catcher';
+  --font3: 'Baskerville Display';
 
+}
+#root {
+  height: 100vh;
 }
 html {
 }
@@ -34,6 +37,7 @@ html {
 
 
 h1 {
+  font-family: var(--font2);
   color: var(--color3);
   font-size: 7vh;
 }
@@ -51,7 +55,7 @@ h6 {
 }
 
 .App {
-  height: 50vh;
+  height: auto;
   text-align: left;
 
 }
@@ -143,6 +147,19 @@ h6 {
   text-align: center;
   padding: 10px;
 }
+.aboutUsContent {
+  font-family: var(--font1);
+  color: var(--color1);
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+.aboutUsContent h1 {
+  text-align: start;
+}
+.aboutUsContent img {
+  width: 300px;
+}
 
 /* SHOPPING PAGE */
 
@@ -152,6 +169,10 @@ h6 {
   padding: 10px;
   height: 40px;
   background-color: var(--color2);
+}
+
+.footer {
+display: inline;
 }
 
 /* ////////////////////////////KEYFRAMES////////////////////////////// */

@@ -11,16 +11,20 @@ import Shopify from './components/shopify';
 
 export default function App() {
   return (
-      <HashRouter basename='/'>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/shopify" element={<Shopify />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
-        <Footer />
-      </HashRouter>
+    <HashRouter basename='/'>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/shopify" element={<Shopify />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <div>
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
+    </HashRouter>
   );
 };
